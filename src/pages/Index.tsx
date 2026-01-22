@@ -38,7 +38,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
           <div className="flex items-center">
             <div className="font-display font-bold text-2xl tracking-tighter bg-gradient-to-r from-white via-accent to-accent/80 bg-clip-text text-transparent">
-              AgentForge
+              КоммуналкаAI
             </div>
           </div>
           <nav className="hidden md:flex gap-10 text-sm font-medium">
@@ -78,41 +78,41 @@ const Index = () => {
             >
               <div className="mb-8 inline-block">
                 <span className="text-xs font-medium tracking-widest text-accent/80 uppercase">
-                  AI-инфраструктура нового поколения
+                  Оплата ЖКХ нового поколения
                 </span>
               </div>
               <h1 className="text-6xl lg:text-7xl font-display font-black leading-tight mb-8 tracking-tighter">
                 <span className="bg-gradient-to-br from-white via-white to-accent/40 bg-clip-text text-transparent">
-                  Создавай. Запускай.
+                  Забудьте.
                 </span>
                 <br />
-                <span className="text-accent">Автоматизируй.</span>
+                <span className="text-accent">Про квитанции.</span>
               </h1>
               <p className="text-xl text-white/80 leading-relaxed mb-10 max-w-xl font-light">
-                AgentForge позволяет создавать, разворачивать и масштабировать умных AI-агентов.
-                От идеи до продакшена за минуты, а не месяцы.
+                ИИ оплачивает коммунальные услуги за вас автоматически. 
+                Никаких квитанций, очередей и просрочек.
               </p>
               <div className="flex gap-4 mb-12 flex-col sm:flex-row">
                 <button className="group px-8 py-4 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center">
-                  Запустить сейчас
+                  Подключить ИИ
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
                 </button>
                 <button className="px-8 py-4 border border-accent/40 rounded-full hover:border-accent/70 hover:bg-accent/10 transition-all font-medium text-lg text-white">
-                  Смотреть демо
+                  Как это работает
                 </button>
               </div>
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-white/10">
                 <div>
-                  <div className="text-2xl font-bold text-accent mb-2">10 000+</div>
-                  <p className="text-sm text-white/60">Активных агентов</p>
+                  <div className="text-2xl font-bold text-accent mb-2">50 000+</div>
+                  <p className="text-sm text-white/60">Довольных клиентов</p>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-white mb-2">500 000+</div>
-                  <p className="text-sm text-white/60">Выполненных задач</p>
+                  <div className="text-2xl font-bold text-white mb-2">2 млн+</div>
+                  <p className="text-sm text-white/60">Оплаченных счетов</p>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent mb-2">99.99%</div>
-                  <p className="text-sm text-white/60">Аптайм</p>
+                  <div className="text-2xl font-bold text-accent mb-2">0%</div>
+                  <p className="text-sm text-white/60">Просрочек</p>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Index = () => {
             <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">Возможности</span>
             <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mt-4 mb-6">
               <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-                Суперсилы встроены
+                Почему это удобно
               </span>
             </h2>
           </div>
@@ -149,33 +149,33 @@ const Index = () => {
             {[
               {
                 icon: Zap,
-                title: "Молниеносный деплой",
-                desc: "Развертывание в продакшен одним кликом без настройки",
+                title: "Автоматические платежи",
+                desc: "ИИ сам оплачивает счета в срок - вам не нужно ничего делать",
               },
               {
                 icon: Cpu,
-                title: "Умный AI-движок",
-                desc: "Продвинутые возможности рассуждения, которые учатся и адаптируются",
+                title: "Умное распознавание",
+                desc: "Автоматически считывает данные со всех счетов и квитанций",
               },
               {
                 icon: TrendingUp,
-                title: "Автомасштабирование",
-                desc: "Автоматическое масштабирование ресурсов на основе нагрузки",
+                title: "Контроль расходов",
+                desc: "Отслеживайте динамику трат и получайте прогнозы на следующий месяц",
               },
               {
                 icon: Lock,
-                title: "Корпоративная безопасность",
-                desc: "Банковское шифрование и соответствие SOC2, GDPR, HIPAA",
+                title: "Банковская безопасность",
+                desc: "Защита данных на уровне банков - шифрование и двухфакторная авторизация",
               },
               {
                 icon: Settings,
-                title: "Гибкие сценарии",
-                desc: "Создавайте сложные цепочки автоматизации в визуальном редакторе",
+                title: "Гибкая настройка",
+                desc: "Выбирайте способ оплаты, устанавливайте лимиты и получайте уведомления",
               },
               {
                 icon: Cloud,
-                title: "Мультиоблачность",
-                desc: "Разворачивайте где угодно - AWS, Azure, GCP или своя инфраструктура",
+                title: "Все счета в одном месте",
+                desc: "Электричество, вода, газ, интернет, домофон - платите за всё одной кнопкой",
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -183,14 +183,16 @@ const Index = () => {
               return (
                 <div
                   key={i}
-                  className={`group p-8 border border-accent/10 hover:border-accent/40 rounded-2xl bg-card/50 hover:bg-card/80 transition-all duration-500 cursor-pointer backdrop-blur-sm ${
+                  className={`group p-8 border border-accent/10 hover:border-accent/40 rounded-2xl bg-card/50 hover:bg-card/80 transition-all duration-500 ${
                     isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   }`}
                   style={{ transitionDelay: `${i * 100}ms` }}
                 >
-                  <Icon className="w-10 h-10 mb-6 text-accent group-hover:scale-110 transition-transform" />
-                  <h3 className="font-display font-bold text-xl mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  <div className="mb-6 flex items-center justify-center w-14 h-14 bg-accent/10 group-hover:bg-accent/20 rounded-2xl transition-colors">
+                    <Icon className="w-7 h-7 text-accent" />
+                  </div>
+                  <h3 className="font-display font-bold text-lg mb-3 tracking-tight">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
                 </div>
               );
             })}
@@ -207,17 +209,17 @@ const Index = () => {
             <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">Процесс</span>
             <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mt-4">
               <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-                От нуля до героя
+                Как это работает
               </span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { num: "01", title: "Проектируй", desc: "Определите возможности агента в интуитивном конструкторе" },
-              { num: "02", title: "Обучай", desc: "Загрузите данные и примеры для настройки поведения" },
-              { num: "03", title: "Запускай", desc: "Запуск в продакшен одним кликом" },
-              { num: "04", title: "Масштабируй", desc: "Автомасштабирование обрабатывает миллионы запросов" },
+              { num: "01", title: "Подключите счета", desc: "Добавьте лицевые счета ЖКХ один раз — больше их вводить не придётся" },
+              { num: "02", title: "Привяжите карту", desc: "Укажите карту для автоматических списаний — безопасно и удобно" },
+              { num: "03", title: "Забудьте про квитанции", desc: "ИИ сам получает счета, проверяет и оплачивает их вовремя" },
+              { num: "04", title: "Контролируйте расходы", desc: "Следите за платежами в приложении и получайте отчёты по расходам" },
             ].map((step, i) => {
               const isVisible = visibleSections["how"];
               return (
@@ -256,7 +258,7 @@ const Index = () => {
             <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">Тарифы</span>
             <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mt-4">
               <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-                Простые цены
+                Выберите свой тариф
               </span>
             </h2>
           </div>
@@ -264,15 +266,15 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                name: "Стартовый",
-                price: "4 900 \u20bd/\u043c\u0435\u0441",
-                features: ["До 10 агентов", "100 000 запросов/месяц", "Поддержка сообщества", "Базовая аналитика"],
+                name: "Базовый",
+                price: "199 ₽/мес",
+                features: ["До 5 лицевых счетов", "Автоплатежи по всем счетам", "Уведомления о начислениях", "История платежей"],
                 highlight: false,
               },
               {
-                name: "Корпоративный",
-                price: "По запросу",
-                features: ["Безлимитные агенты", "Безлимитные запросы", "Поддержка 24/7", "Индивидуальные интеграции"],
+                name: "Семейный",
+                price: "399 ₽/мес",
+                features: ["Безлимит лицевых счетов", "Контроль расходов и прогнозы", "Поддержка 24/7", "Кешбэк 1% на все платежи"],
                 highlight: true,
               },
             ].map((plan, i) => {
@@ -312,7 +314,7 @@ const Index = () => {
                           : "border border-accent/20 hover:border-accent/40 hover:bg-accent/5"
                       }`}
                     >
-                      {plan.highlight ? "Связаться с нами" : "Попробовать бесплатно"}
+                      {plan.highlight ? "Попробовать" : "Начать бесплатно"}
                     </button>
                   </div>
                 </div>
@@ -329,36 +331,27 @@ const Index = () => {
         >
           <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mb-6">
             <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-              Готовы создавать?
+              Готовы забыть про квитанции?
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground mb-12 font-light max-w-2xl mx-auto">
-            Присоединяйтесь к тысячам разработчиков, которые строят будущее с AgentForge.
+          <p className="text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light">
+            Подключите ИИ прямо сейчас и получите первый месяц бесплатно
           </p>
-          <button className="group px-10 py-5 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/40 transition-all font-bold text-lg flex items-center gap-3 mx-auto">
-            Начать бесплатно
+          <button className="group px-10 py-5 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg inline-flex items-center gap-3">
+            Начать сейчас
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
           </button>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-accent/10 py-12 px-6 bg-background/50">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-muted-foreground">
-          <p>© 2025 AgentForge — Создавайте умных агентов</p>
-          <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">
-              Конфиденциальность
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Условия
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Документация
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Контакты
-            </a>
+      <footer className="border-t border-accent/10 py-12 px-6 bg-accent/5">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="font-display font-bold text-xl tracking-tighter bg-gradient-to-r from-white via-accent to-accent/80 bg-clip-text text-transparent">
+            КоммуналкаAI
+          </div>
+          <div className="text-sm text-muted-foreground">
+            © 2026 КоммуналкаAI. Все права защищены.
           </div>
         </div>
       </footer>

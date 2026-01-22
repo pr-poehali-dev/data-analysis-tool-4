@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Get user status",
+      "method": "GET",
+      "path": "/?action=status&user_id=1",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "coins_balance": 0
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

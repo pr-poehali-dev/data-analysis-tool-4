@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "name": "Send SMS code",
+      "method": "POST",
+      "path": "/?action=send-code",
+      "body": {
+        "phone": "+79991234567"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Check existing user",
+      "method": "GET",
+      "path": "/?action=check-user&phone=+79991234567",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "exists": false
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
